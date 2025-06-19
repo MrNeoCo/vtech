@@ -102,34 +102,13 @@
             <br><br>
             <a href="tel:+91 7814969201" class="btn" style="background:#0984e3">Call Us</a>
             <br><br>
-            <a href="mailto:webtech@gmail.com" class="btn" style="background:#6c5ce7">Email Us</a>
+            <a href="mailto:vtech@gmail.com" class="btn" style="background:#6c5ce7">Email Us</a>
         </div>
     </section>
 
     <footer>
         &copy; 2025 VTech Computers | Made with ❤️ in India
     </footer>
-
-    <script>
-        const hamburger = document.getElementById('hamburger');
-        const mobileMenu = document.getElementById('mobileMenu');
-
-        hamburger.addEventListener('click', () => {
-            hamburger.classList.toggle('active');
-            mobileMenu.classList.toggle('active');
-        });
-
-        function closeMobileMenu() {
-            hamburger.classList.remove('active');
-            mobileMenu.classList.remove('active');
-        }
-
-        document.addEventListener('click', (e) => {
-            if (!hamburger.contains(e.target) && !mobileMenu.contains(e.target)) {
-                closeMobileMenu();
-            }
-        });
-    </script>
 </body>
 
 </html>
